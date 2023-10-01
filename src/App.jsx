@@ -1,7 +1,8 @@
-import { useEffect } from 'react'
+import { useEffect, useReducer } from 'react'
 import axios from 'axios'
-import { useReducer } from 'react'
+
 import { cartReducer } from './reducers/cartReducer'
+
 import Products from './components/Products'
 import Cart from './components/Cart'
 
